@@ -1,0 +1,13 @@
+<div class="row categories">
+    <h1><strong>Browse</strong> Our Most Popular Categories</h1>
+    <br>
+    <div class="{{itemClass}}" ng-repeat="category in categories | limitTo : maxCount">
+        <div class="col-sm-6"><img class="category-image" src="{{ category.image }}" alt=""></div>
+        <div class="col-sm-6">
+            <h3>{{category.title}}</h3>
+            <p>
+                {{category.description}}
+            </p>
+        </div>
+    </div>
+</div>

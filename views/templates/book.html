@@ -1,0 +1,24 @@
+<div ng-show="book" class="row book">
+        <div class="col-sm-4">
+            <img src="{{book.image}}" width="100%" alt="">
+        </div>
+        <div class="col-sm-8">
+            <h1>{{book.title}}</h1>
+            <h4><b><i>Description</b></i></h4>
+            <p>{{book.description}}</p>
+            <h4><b><i>Author</i></b></h4>
+            <p>{{book.author}}</p>
+            <h4><b><i>Reviewed By</i></b></h4>
+            <p> {{book.reviewedBy}} </p>
+            <h4><b><i>Published On</i></b></h4>
+            <p>{{book.publishedOn}}</p>
+        </div>
+    </div>
+<br>
+<div ng-hide="book" class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+        <div class="alert alert-warning text-center">
+            <h1>there is no book with this id</h1>
+        </div>
+    </div>
+</div>

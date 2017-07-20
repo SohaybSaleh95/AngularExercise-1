@@ -1,0 +1,124 @@
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .navbar-green {
+            background-color: #82B808;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .navbar {
+            border-radius: 0px;
+            margin-bottom: 0px;
+        }
+
+        .nav>li>a {
+            color: white;
+        }
+
+        .nav>li>a:hover {
+            color: black;
+            background-color: #82B808;
+        }
+
+        .nav>li.active>a {
+            color: black;
+        }
+
+        .categories {
+            margin: 0px;
+            background-color: #e7e7e7;
+            padding: 20px 100px 20px 100px;
+        }
+
+        .categories>.title {
+            margin-bottom: 10px;
+        }
+
+        .category-image {
+            width: 75%;
+        }
+
+        .dark-theme {
+            background-color: black;
+        }
+
+        .light-theme {
+            background-color: wheat;
+        }
+
+        .book-title {
+            background-color: transparent;
+        }
+
+        .book-image {
+            width: 200px;
+        }
+
+        .book-info {
+            color: #82B808;
+        }
+
+        .item-container {
+            display: flex !important;
+            justify-content: space-around;
+        }
+
+        .book-body {
+            width: 220px;
+        }
+
+        .carousel-control {
+            width: 30px;
+        }
+
+        .carousel-caption{
+            top: 5px;
+            height: 30px;
+            width: 100%;
+            text-align: center;
+            left: 0px;
+        }
+        .item {
+            padding: 120px 60px 60px 60px;
+        }
+
+        .books {
+            width: 100%;
+            margin: 0px !important;
+        }
+        footer{
+            background-color: #323232;
+            color: white;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        footer ul{
+            padding-left: 0px;
+        }
+        footer li a{
+            color: #919191;
+        }
+        footer li a:hover{
+            color:#82B808;
+            text-decoration: none;
+        }
+        footer li{
+            list-style-type: none;
+            margin: 15px;
+        }
+
+        .footer-column{
+            border-left: 1px solid black;
+        }
+        .book{
+            padding: 20px 100px 20px 100px;
+        }
+        .book h4{
+            color: grey;
+        }

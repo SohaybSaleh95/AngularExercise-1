@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
+    <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+
+    <!-- Services :D -->
+    <script src="js/services/getBooks.js"></script>
+    <script src="js/services/getCategories.js"></script>
+
+    <!-- Controllers :D -->
+    <script src="js/controllers/homeController.js"></script>
+    <script src="js/controllers/bookController.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel-control').click(function(e){
+                e.preventDefault();
+            });
+        });
+    </script>
+</head>
+
+<body ng-app="angularExersice">
+    <nav class="navbar navbar-green" ng-include="'nav.html'"></nav>
+    <div ng-view></div>
+    <footer ng-include="'footer.html'"></footer>
+</body>
+
+</html>
